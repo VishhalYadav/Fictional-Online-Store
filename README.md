@@ -4,28 +4,26 @@ The API allows users to perform various actions related to products, orders, and
 
 ## Installation
 1. Clone the repository: https://github.com/VishhalYadav/Fictional-Online-Store.git
-2. Install the dependencies: cd Fictional-Online-Store npm install
-3. Start the server: npm start
+2. Install the dependencies: **npm install**
+3. Start the server: **npm start**
 The server will start running on http://localhost:3000.
 
 ## Packages Used
 
 The project utilizes the following packages:
 
-- Express.js: Fast, unopinionated, and minimalist web framework for Node.js.
-- Mongoose: Elegant MongoDB object modeling for Node.js.
-- Validator: A library for string validation and sanitization.
-- Bcrypt.js: Library for password hashing and verification.
-- JSON Web Token (JWT): For generating and verifying JSON web tokens.
-- Morgan: HTTP request logger middleware.
-- dotenv: Loads environment variables from a `.env` file.
-- Nodemon: Utility that monitors changes in the source code and automatically restarts the server.
-
-Packages used for Security Purposes- 
--xss-clean -  A package that helps prevent cross-site scripting (XSS) attacks by sanitizing user input and removing malicious code.
--helmet -  A package that helps prevent cross-site scripting (XSS) attacks by sanitizing user input and removing malicious code.
--express-rate-limit -  A middleware that limits the number of requests that can be made to an API within a certain time frame, helping to prevent abuse, brute-force attacks, and DDoS attacks.
--express-mongo-sanitize - A middleware that sanitizes user-supplied data to prevent MongoDB query injection attacks by removing any characters or operators that could alter the query's behavior.
+- **Express.js**: Fast, unopinionated, and minimalist web framework for Node.js.
+- **Mongoose**: Elegant MongoDB object modeling for Node.js.
+- **Validator**: A library for string validation and sanitization.
+- **Bcryptjs**: Library for password hashing and verification.
+- **JSON Web Token (JWT)**: For generating and verifying JSON web tokens.
+- **Morgan**: HTTP request logger middleware.
+- **dotenv**: Loads environment variables from a `.env` file.
+- **Nodemon**: Utility that monitors changes in the source code and automatically restarts the server.
+- **xss-clean**: A package that helps prevent cross-site scripting (XSS) attacks by sanitizing user input and removing malicious code.
+- **helmet**: A package that helps prevent cross-site scripting (XSS) attacks by sanitizing user input and removing malicious code.
+- **express-rate-limit**: A middleware that limits the number of requests that can be made to an API within a certain time frame, helping to prevent abuse, brute-force attacks, and DDoS attacks.
+- **express-mongo-sanitize**: A middleware that sanitizes user-supplied data to prevent MongoDB query injection attacks by removing any characters or operators that could alter the query's behavior.
 
 ## Routes and Route Handlers
 
